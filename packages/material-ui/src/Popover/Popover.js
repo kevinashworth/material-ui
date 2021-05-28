@@ -196,7 +196,7 @@ const Popover = React.forwardRef(function Popover(props, ref) {
           if (anchorOrigin.vertical !== 'top') {
             console.error(
               [
-                'Material-UI: You can not change the default `anchorOrigin.vertical` value ',
+                'Material-UI: You cannot change the default `anchorOrigin.vertical` value ',
                 'when also providing the `getContentAnchorEl` prop to the popover component.',
                 'Only use one of the two props.',
                 'Set `getContentAnchorEl` to `null | undefined`' +
